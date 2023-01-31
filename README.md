@@ -104,5 +104,5 @@ ORDER BY profit Asc
 LIMIT 1;
 ```
 
-click here to check my other querries for this [this analysis](https://github.com/Saintpius/Detailed-analysis-of-International-Breweries-datasets/blob/main/International_breweries%20result.sql)
+click here to check my other querries for [this analysis](https://github.com/Saintpius/Detailed-analysis-of-International-Breweries-datasets/blob/main/International_breweries%20result.sql)
 
