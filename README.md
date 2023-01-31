@@ -51,6 +51,9 @@ Months varchar(200),
 Years int
 );
 ```
+### I calculated the profit worth of the breweries, inclusive of the anglophone and the francophone territories within the period of 3 years (2017-2019)
+
+```SELECT SUM(profit) from International_breweries;```
 
 
 ![image](https://th.bing.com/th?id=OIP.-uYU204aetG-GkxUg5AyOAHaIv&w=230&h=271&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2)
