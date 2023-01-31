@@ -1,6 +1,6 @@
 # Exploratory Data Analysis of International Breweries brands
 
-Detailed analysis of the Products of the International Breweries across 2 Anglophone and 3 Francophone Africa countries between the period of 3 years (2017-2019) using SQL.
+Exploratory Data Analysis of the International Breweries brands  across 2 Anglophone and 3 Francophone Africa countries between the period of 3 years (2017-2019) using SQL.
 
 ![image](https://github.com/Saintpius/Detailed-analysis-of-International-Breweries-datasets/blob/main/Nigerian-Breweries.png)
 
