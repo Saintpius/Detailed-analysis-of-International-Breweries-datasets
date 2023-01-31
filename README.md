@@ -1,6 +1,7 @@
 # Detailed analysis of International Breweries Products
 Detailed analysis of the Products of the International Breweries across 2 Anglophone and 3 Francophone Africa countries between the period of 3 years (2017-2019) using SQL. 
 
+
 ## OVERVIEW OF THE PROJECT
 The International Breweries dataset is a collection of data regarding various brewery products in various Africa countries, namely: Nigeria, Ghana, Senegal, Benin and Togo respectively. The dataset is stored in a CSV file and contains information such as sales reps for each country with their sales ID and email, brands, plant cost, unit price, quantity, cost, profit, countries, region, years and months covered by the report.
 
@@ -55,6 +56,52 @@ Years int
 
 ```SELECT SUM(profit) from International_breweries;```
 
+### I compared the total profit between those two territories(the anglophone and the francophone) in order to help the territory manager, made a strategic decision that will aid profit maximization in 2020
+
+```
+SELECT SUM(profit) AS Anglophone_profit from International_breweries
+WHERE countries IN ('Nigeria', 'Ghana')
+
+UNION
+
+SELECT SUM(profit) AS Francophone_profit from International_breweries
+WHERE countries IN ('Benin', 'Senegal', 'Togo');
+```
+
+
+### I also querried the database to help identify Country that generated the highest profit in 2019
+
+
+```
+SELECT countries, MAX(profit) AS profit
+FROM International_breweries
+WHERE years= 2019
+GROUP BY countries
+LIMIT 1;
+```
+
+### To help the company's stakeholder in their decision making, I querried my database to help  find  out the year with the highest profit
+ 
+```
+
+SELECT years, MAX(profit) AS profit
+FROM International_breweries
+GROUP BY years
+LIMIT 1;
+
+```
+
+I dive further into the dataset to see which month in the three years was the least profit generated
+
+```
+SELECT months, MIN(profit) AS profit
+FROM International_breweries
+GROUP BY months
+ORDER BY profit Asc
+LIMIT 1;
+```
+
+```
 
 ![image](https://th.bing.com/th?id=OIP.-uYU204aetG-GkxUg5AyOAHaIv&w=230&h=271&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2)
 
