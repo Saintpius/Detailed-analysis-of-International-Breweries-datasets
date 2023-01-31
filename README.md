@@ -1,5 +1,8 @@
-# Detailed analysis of International Breweries Products
-Detailed analysis of the Products of the International Breweries across 2 Anglophone and 3 Francophone Africa countries between the period of 3 years (2017-2019) using SQL. 
+# Exploratory Data Analysis of International Breweries brands
+
+Detailed analysis of the Products of the International Breweries across 2 Anglophone and 3 Francophone Africa countries between the period of 3 years (2017-2019) using SQL.
+
+![image](https://github.com/Saintpius/Detailed-analysis-of-International-Breweries-datasets/blob/main/Nigerian-Breweries.png)
 
 
 ## OVERVIEW OF THE PROJECT
@@ -101,26 +104,5 @@ ORDER BY profit Asc
 LIMIT 1;
 ```
 
-```
+click here to check my other querries for this [this analysis](https://github.com/Saintpius/Detailed-analysis-of-International-Breweries-datasets/blob/main/International_breweries%20result.sql)
 
-![image](https://th.bing.com/th?id=OIP.-uYU204aetG-GkxUg5AyOAHaIv&w=230&h=271&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2)
-
-ijhhciuhdscid\]j
-cnbdsnjcs
-cnsijncs
-sn
-
-\cushiuscis
-
-
-1. olqa
-2. uiujiuj
-3. iujiou
-
-
-```
-select * from user;
-```
-
-
-[click here to visit ola](https://google.com)
